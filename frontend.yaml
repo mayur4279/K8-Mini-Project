@@ -15,9 +15,13 @@ spec:
       containers:
         - name: nginx
           image: "gcr.io/google-samples/hello-frontend:1.0"
+          ports:
+          - containerPort: 80
           lifecycle:
             preStop:
               exec:
                 command: ["/usr/sbin/nginx","-s","quit"]
 
 
+        ports:
+        - containerPort: 80
