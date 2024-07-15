@@ -4,8 +4,7 @@ metadata:
   name: frontend
 spec:
   selector:
-    app: hello
-    tier: frontend
+    app: frontend
   ports:
     - protocol: "TCP"
       port: 80
