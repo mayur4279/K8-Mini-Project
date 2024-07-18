@@ -16,9 +16,7 @@
    ```
 
 4. Result
-
-   <br> 
-   
+    
    <p align="center">
      <img src="https://github.com/user-attachments/assets/43333d18-ee0f-47e7-9bde-f9dd9a59d968" width="800" title="Architecture" alt="Architecture">
      </p>
